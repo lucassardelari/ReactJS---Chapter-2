@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
     :root {
         --red: #e52e4d;
         --blue: #5429cc;
-
+        --green: #33cc95;
         --blue-light: #6933ff;
 
         --text-title: #363f5f;
@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
     //REM 16px = 1rem - font-size
 
     body {
-        background: var(--background);
+        background-color: var(--background);
         -webkit-font-smoothing:  antialiased;
     }
 
